@@ -1,0 +1,65 @@
+/* KHUSUS HALAMAN LOGIN/AUTH FILAMENT (.fi-simple-layout) */
+.fi-simple-layout {
+    background-color: #0B1120 !important;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(79,70,229,0.3) 0%, transparent 60%),
+        radial-gradient(circle at 90% 80%, rgba(16,185,129,0.2) 0%, transparent 60%) !important;
+}
+
+/* Bikin Kotak Formnya jadi Kaca */
+.fi-simple-layout .bg-white,
+.fi-simple-layout .dark\:bg-gray-900 {
+    background: rgba(17, 24, 39, 0.7) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 1.5rem !important;
+}
+
+/* Teks dan Label jadi Putih */
+.fi-simple-layout h1,
+.fi-simple-layout h2,
+.fi-simple-layout label,
+.fi-simple-layout p,
+.fi-simple-layout span {
+    color: #ffffff !important;
+}
+
+/* Tulisan kecil agar tidak terlalu silau */
+.fi-simple-layout .text-gray-500 {
+    color: #9CA3AF !important;
+}
+
+/* Styling Input Box (Tempat ketik email/password) */
+.fi-simple-layout .fi-input-wrapper {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    border-radius: 0.75rem !important;
+}
+.fi-simple-layout input {
+    color: white !important;
+    background: transparent !important;
+}
+
+/* Kotak Centang (Checkbox) */
+.fi-simple-layout input[type="checkbox"] {
+    background-color: rgba(255,255,255,0.1) !important;
+    border-color: rgba(255,255,255,0.2) !important;
+}
+
+/* Tombol Sign In Mewah Gradasi */
+.fi-simple-layout button[type="submit"] {
+    background: linear-gradient(to right, #4F46E5, #9333EA) !important;
+    border: none !important;
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3) !important;
+    transition: all 0.3s ease !important;
+}
+.fi-simple-layout button[type="submit"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.5) !important;
+}
+.fi-simple-layout button[type="submit"] span {
+    color: white !important;
+    font-weight: bold !important;
+}
